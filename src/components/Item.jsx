@@ -8,7 +8,8 @@ export const Item = ( {producto}) => {
         <div>
             <h4>{producto.titulo}</h4>
             <p>Precio: $ {producto.precio}</p>
-            <p>{producto.categoria}</p>
+            <p>categoria: {producto.categoria}</p>
+            
             <a className="ver-mas" href={`/Item/${producto.id}`}>Ver mas</a>
         </div>
     </div>

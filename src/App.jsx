@@ -1,6 +1,7 @@
 import { ItemDetailContainer } from "./components/ItemDetailContainer";
 import ItemListContainer from "./components/ItemListContainer";
 import Navbar from "./components/navbar";
+import { Item } from "./components/Item";
 
 function App() {
   
@@ -8,8 +9,8 @@ function App() {
     <>
       <div>
         <Navbar />
-       {/* <ItemListContainer /> */}
-        <ItemDetailContainer itemId={2} />
+        {/*<ItemListContainer />*/}
+        <ItemDetailContainer itemId={2} /> 
       </div>
 
     </>

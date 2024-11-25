@@ -7,8 +7,9 @@ export const ItemDetailContainer = ( {itemId}) => {
     const [item, setItem] = useState(null);
 
     useEffect(() => {
-      pedirItemPorId(itemId).then((res) => {
-            setItem(res);
+      pedirItemPorId(itemId)
+        .then((res) => {
+            setItem (res)
         })
     }, [itemId])
     
