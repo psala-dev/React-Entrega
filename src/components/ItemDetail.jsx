@@ -30,7 +30,8 @@ export const ItemDetail = ( {item} ) => {
                 <p className="descripcion">{item.descripcion}</p>
                 <p className="categoria">Categoria: {toCapital(item.categoria)}</p>
                 <p className="precio">${item.precio}</p>
-                <ItemCount cantidad={cantidad} handleRestar={handleRestar} handleSumar={handleSumar} handleAgregar={() => { agregarAlCarrito (item, cantidad) }}/>
+                <ItemCount cantidad={cantidad} handleRestar={handleRestar} handleSumar={handleSumar} 
+                handleAgregar={() => { agregarAlCarrito(item, cantidad) }}/>
             </div>
         </div>
 
