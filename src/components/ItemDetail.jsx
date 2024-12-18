@@ -1,14 +1,12 @@
 import { useContext, useState } from "react";
-import { toCapital } from "../helpers/toCapital"
-import ItemCount from "./ItemCount"
+import { toCapital } from "../helpers/toCapital";
+import ItemCount from "./ItemCount";
 import { CartContext } from "../context/CartContext";
-
 
 export const ItemDetail = ( {item} ) => {
 
   const { carrito, agregarAlCarrito } = useContext(CartContext);
   console.log(carrito);
-
 
   const [cantidad, setCantidad] = useState(1);
 
