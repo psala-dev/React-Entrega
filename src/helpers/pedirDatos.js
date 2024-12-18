@@ -1,5 +1,3 @@
-import data from "../data/data.json";
-
 export const pedirDatos = () => {
     return new Promise ((resolve, reject) => {
         setTimeout( () => {
@@ -15,7 +13,7 @@ export const pedirItemPorId = (id) => {
             resolve(item);
         } else {
             reject({
-                error: "no se encontro el producto"
+                error: "No se encontró el producto."
             });
         }
     });
