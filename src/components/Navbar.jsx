@@ -1,12 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 import CartWidget from './CartWidget';
 
 const Navbar = () => {
   return (
     <nav className="navbar">
+      
         <Link to="/" className="logo">
-            <h1>Letras & Especias</h1>
+            <h1>Letras <span>&</span> <br />Especias</h1>
         </Link>
         <ul className="menu">
             <li><Link to="/" className="menu-link">Tienda</Link></li>

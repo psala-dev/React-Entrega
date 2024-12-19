@@ -1,0 +1,26 @@
+/*.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo{
+        font-size: 20px;
+        font-weight: 800;
+        span{
+            color: $color-sec;
+            font-size: 12px;
+            padding-left: 4px;
+            font-style: italic;
+    }
+    }  
+    
+    .menu{
+        display: flex;
+        .menu-link{
+            margin: 10px;
+        }
+        .cartwidget {
+            margin-left: 300px;
+        }
+    }
+    
+}*/

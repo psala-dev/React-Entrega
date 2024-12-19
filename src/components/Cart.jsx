@@ -14,7 +14,7 @@ vaciarCarrito();
 
         {
             carrito.map((prod) => (
-                <div key={prod.id}>
+                <div className="container" key={prod.id}>
                 <h2>{prod.titulo}</h2>
                 <p>${prod.precio}</p>
                 <p>cantidad: {prod.cantidad}</p>
