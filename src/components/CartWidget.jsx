@@ -7,7 +7,7 @@ const { cantidadEnCarrito } = useContext(CartContext);
 
   return (
     <div>
-        <Link className="menu-link" to="/carrito" ><i class="bi bi-basket"></i>
+        <Link className="menu-link" to="/carrito" ><i className="bi bi-basket"></i>
         <span className='numerito'> {cantidadEnCarrito()}</span></Link>
     </div>
   )
