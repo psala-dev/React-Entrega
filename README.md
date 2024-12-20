@@ -9,3 +9,5 @@
 * React router dom
 * Firebase - Firestore
 * React hook form
+
+[Link en Netlify] (https://letrasyespecias.netlify.app/)
